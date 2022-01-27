@@ -57,7 +57,7 @@ global.packname = '© Experience' // ganti aja
 global.author = 'Master Bot' // ganti aja
 
 //yyy
-bc = '𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝑩𝒐𝒕' //ANDRIIxBOTZ Broadcast
+bc = '𝙋𝙀𝙎𝘼𝙉 𝙎𝙄𝘼𝙍𝘼𝙉 𝘽𝙊𝙏' //ANDRIIxBOTZ Broadcast
 footer = '\n©𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆'
 namabot = '𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝑩𝒐𝒕'
 namalu = '𝙳𝚊𝚟𝚒𝚍'
