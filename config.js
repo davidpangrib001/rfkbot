@@ -40,7 +40,7 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-lolkey = 'RFK-Rey'
+lolkey = 'c970350d8b6c853cf77eb2bb'
 zekskey = 'apivinz'
 xteamkey = '7a99fbd6b77336d5'
 //xteam        MIMINETBOT
@@ -53,8 +53,8 @@ namakontak2 = 'David'
 //kasihcaption = `Sudah Selesai..`
 
 // Sticker WM
-global.packname = '© Experience' // ganti aja
-global.author = 'Master Bot' // ganti aja
+global.packname = 'By WhatsApp Bot' // ganti aja
+global.author = 'Experience Bot' // ganti aja
 
 //yyy
 bc = 'Experience Bot' //ANDRIIxBOTZ Broadcast
@@ -64,11 +64,11 @@ namalu = '𝙳𝚊𝚟𝚒𝚍'
 
 
 // 
-wait = '_*Tunggu Sebentar...*_'
-global.wait = '_*Tunggu Sebentar...*_'
+wait = '*_Sabar, pesanan dalam antrian.._*'
+global.wait = '_*Sabar, pesan anda dalam antrian*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *.enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
-global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '_*Server Error*_'
+global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“*Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padanya*,” \n(TQS. Al-Nur [24]: 30-31).'
+global.eror = 'Hehe, maaf server emror..'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
