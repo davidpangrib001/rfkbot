@@ -11,9 +11,9 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = 'https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk'
-gc2 = ''
-gc3 = ''
+gc1 = 'https://tinyurl.com/grupex1'
+gc2 = 'https://tinyurl.com/grupex2'
+gc3 = '𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇..'
 global.linkGC = ['https://chat.whatsapp.com/LyMfZPkvku447yNryUkF3W', 'Coming Soon..'] // ganti jadi group lu
 global.owner = ['6282160268332','6282128475388'] // Put your number here //owner eval
 global.kontak = ['6282160268332','0','6282128475388'] //Ketika ada yang ngetik #owner
@@ -60,14 +60,14 @@ global.author = 'Bot' // ganti aja
 bc = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' //ANDRIIxBOTZ Broadcast
 footer = '\n©𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆'
 namabot = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵'
-namalu = '𝐷𝑎𝑣𝑖𝑑'
+namalu = '𝘋𝘢𝘷𝘪𝘥'
 
 
 // 
 wait = '*_Tunggu, gopud-nya ingin siap.._*'
-global.wait = '_*Sabar, pesan anda dalam antrian*_'
+global.wait = '𝗦𝗮𝗯𝗮𝗿.. 𝗚𝗼𝗽𝘂𝗱-𝗻𝘆𝗮 𝗶𝗻𝗴𝗶𝗻 𝘀𝗶𝗮𝗽..'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *.enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
-global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“*Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padanya*,” \n(TQS. Al-Nur [24]: 30-31).'
+global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“ *Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padanya*, ” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = 'Hehe, maaf server emror..'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
