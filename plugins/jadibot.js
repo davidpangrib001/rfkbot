@@ -18,7 +18,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       auth = true
     }
     conn.on('qr', async qr => {
-      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Scan QR ini untuk jadi bot sementara\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk Perangkat Tertaut\n3. Scan QR ini \nQR Expired dalam 20 detik', m)
+      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Ini session untuk menjadi bot sementara.\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk Perangkat Tertaut\n3. Scan QR ini \nQR Expired dalam 20 detik \nNote : *JANGAN PAKAI WA BUSINESS', m)
       setTimeout(() => {
         parent.deleteMessage(m.chat, scan.key)
       }, 30000)
@@ -64,7 +64,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }, 30000)
     })
     global.conns.push(conn)
-  } else throw 'Tidak bisa membuat bot didalam bot!\n\nhttps://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=.jadibot'
+  } else throw 'Unable to create a bot within a bot!\n\nhttps://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot'
 }
 handler.help = ['jadibot']
 handler.tags = ['jadibot', 'premium']
@@ -72,6 +72,6 @@ handler.tags = ['jadibot', 'premium']
 handler.command = /^jadibot$/i
 handler.premium = false
 handler.private = true
-handler.limit = 500
+handler.limit = 1000
 
 module.exports = handler
