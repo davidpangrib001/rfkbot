@@ -46,25 +46,25 @@ xteamkey = '7a99fbd6b77336d5'
 //xteam        MIMINETBOT
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
-kasihcaption = `*Sudah Selesai..*`
+kasihcaption = `*_Punten.. Nih Gopud kamu.._*`
 namakontak1 = 'David'
 namakontak2 = 'David'
 
 //kasihcaption = `Sudah Selesai..`
 
 // Sticker WM
-global.packname = 'By WhatsApp Bot' // ganti aja
-global.author = 'Experience Bot' // ganti aja
+global.packname = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' // ganti aja
+global.author = 'Bot' // ganti aja
 
 //yyy
-bc = 'Experience Bot' //ANDRIIxBOTZ Broadcast
+bc = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' //ANDRIIxBOTZ Broadcast
 footer = '\n©𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆'
-namabot = '𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝑩𝒐𝒕'
-namalu = '𝙳𝚊𝚟𝚒𝚍'
+namabot = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵'
+namalu = '𝐷𝑎𝑣𝑖𝑑'
 
 
 // 
-wait = '*_Sabar, pesanan dalam antrian.._*'
+wait = '*_Tunggu, gopud-nya ingin siap.._*'
 global.wait = '_*Sabar, pesan anda dalam antrian*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *.enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“*Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padanya*,” \n(TQS. Al-Nur [24]: 30-31).'
