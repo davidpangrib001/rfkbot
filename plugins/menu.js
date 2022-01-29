@@ -23,10 +23,7 @@ const defaultMenu = {
 ┃⬡ *%dateIslamic*
 ┃⬡ Waktu: *%time*
 ┃
-┃⬡ Uptime: *%uptime (%muptime)*
-┃⬡ Database: %rtotalreg dari %totalreg
-┃⬡ Github:
-┃⬡ COMING SOON..
+┃⬡ *𝖲𝗂𝗅𝖺𝗁𝗄𝖺𝗇 𝖽𝗂 𝗉𝗂𝗅𝗂𝗁 𝗆𝖾𝗇𝗎𝗇𝗒𝖺..*
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
@@ -248,7 +245,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃⬡ Group Official 3 :
 ┃    ${gc3}
-┃
+┃𝖲𝗂𝗅𝖺𝗁𝗄𝖺𝗇 𝖽𝗂 𝗉𝗂𝗅𝗂𝗁 𝗆𝖾𝗇𝗎𝗇𝗒𝖺..
 ┃
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "𝗗𝗶𝘀𝗶𝗻𝗶 𝗠𝗲𝗻𝘂𝗻𝘆𝗮..",
@@ -256,6 +253,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "sections": [
             {
               "rows": [
+                {
+                "title": "SILAHKAN DI PILIH"
+                "description": "JANGAN DI KLIK"
+                "rowId": ".? runtime"
                 {
                   "title": `🧾 Semua Perintah`,
                   "description": "Memberikan Semua Fitur Bot",
@@ -366,11 +367,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? info"
                 }, {
                   "title": "Tanpa Kategori",
-                  "description": "",
+                  "description": "Ga Usah di pake..",
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
                   "description": "Cuma untuk orang kesayangan ❤️ ",
+                  "rowId": ".? owner"
+                }, {
+                  "title": "Jangan spam bang/kak.."
+                  "description": "Nanti di banned botnya.."
                   "rowId": ".? owner"
                 }
               ]
