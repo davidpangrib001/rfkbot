@@ -10,7 +10,7 @@ handler.before = m => {
         let str = `Selamat @${m.sender.split`@`[0]} Anda Naik level 
 *${before}* --> *${user.level}*
 `.trim()
-        conn.send2Button(m.chat, str, footer, 'PROFILE', '#profile', 'Off Auto Levelup', '#off autolevelup', false, {
+        conn.send2Button(m.chat, str, footer, 'PROFIL SAYA', '#profile', 'Matikan Auto Levelup', '#off autolevelup', false, {
             contextInfo: {
                 mentionedJid: [m.sender]
             }
