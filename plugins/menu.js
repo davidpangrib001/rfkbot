@@ -253,11 +253,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "sections": [
             {
               "rows": [
-                {
+                   {
                 "title": "SILAHKAN DI PILIH"
                 "description": "JANGAN DI KLIK"
                 "rowId": ".? runtime"
-                {
+                }, {
                   "title": `🧾 Semua Perintah`,
                   "description": "Memberikan Semua Fitur Bot",
                   "rowId": ".? all"
