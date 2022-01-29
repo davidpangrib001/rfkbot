@@ -26,7 +26,7 @@ const defaultMenu = {
 ┃⬡ Uptime: *%uptime (%muptime)*
 ┃⬡ Database: %rtotalreg dari %totalreg
 ┃⬡ Github:
-┃⬡ Github.com/Andriiwalker
+┃⬡ COMING SOON..
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
@@ -155,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'audio': 'Pengubah Suara'
   }
   if (teks == 'jadibot') tags = {
-    'jadibot': 'Jadi Bot'
+    'jadibot': 'Numpang'
   }
   if (teks == 'info') tags = {
     'info': 'Info'
@@ -251,117 +251,117 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "Klik Disini",
+          "buttonText": "𝗗𝗶𝘀𝗶𝗻𝗶 𝗠𝗲𝗻𝘂𝗻𝘆𝗮..",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `[🧾] Semua Perintah`,
+                  "title": `🧾 Semua Perintah`,
                   "description": "Memberikan Semua Fitur Bot",
                   "rowId": ".? all"
                 }, {
-                  "title": "[🕋] Islam",
+                  "title": "🕋 Islam",
                   "description": "Menu Tentang Islam",
                   "rowId": ".? quran"
                 }, {
-                  "title": "[🏫] Edukasi",
+                  "title": "🏫 Edukasi",
                   "description": "Menu Edukasi",
                   "rowId": ".? edukasi"
                 }, {
-                  "title": "[📰] News",
+                  "title": "📰 News",
                   "description": "Menu Berita",
                   "rowId": ".? News"
                 },  {
-                  "title": "[🎮] Game",
+                  "title": "🎮 Game",
                   "description": "Menu Game",
                   "rowId": ".? game"
                 }, {
-                  "title": "[🗺️] Epic Rpg",
-                  "description": "Menu Game RPG",
+                  "title": "🗺️ Epic Rpg",
+                  "description": "Namanya bot RPG, pasti ada game RPG lah..",
                   "rowId": ".? rpg"
                 }, {
-                  "title": "[📈] XP",
+                  "title": "📈 XP",
                   "description": "XP Dan Level",
                   "rowId": ".? xp"
                 },  {
-                  "title": "[🔞] NSFW",
-                  "description": "Menu Bokep",
+                  "title": "🔞 NSFW",
+                  "description": "Cuma Untuk 18+",
                   "rowId": ".? nsfw"
                 }, {
-                  "title": "[🖼️] Random Image",
+                  "title": "🖼️ Random Image",
                   "description": "Menu Foto Random",
                   "rowId": ".? image"
                 }, {
-                  "title": "[🎇] Stiker",
+                  "title": "🔮 Stiker",
                   "description": "Menu Buat Stiker",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "[🐚] Kerang Ajaib",
-                  "description": "Menurut Kerang ajaib....",
+                  "title": "🐚 Kerang Ajaib",
+                  "description": "Bot bisa mengabulkan permintaan kamu secara acak.. 😱",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "[📑] Quotes",
+                  "title": "📑 Quotes",
                   "description": "Menu Quotes",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "[🏛️] Admin",
-                  "description": "Menu Admin Group",
+                  "title": "🏛️ Admin",
+                  "description": "Cuma untuk admin grup aja..",
                   "rowId": ".? admin"
                 }, {
-                  "title": "[🏢] Grup",
-                  "description": "Menu Group",
+                  "title": "🏢 Grup",
+                  "description": "Menu Grup",
                   "rowId": ".? grup"
                 }, {
-                  "title": "[🔝] Premium",
+                  "title": "🔝 Premium",
                   "description": "Menu Untuk Premium",
                   "rowId": ".? premium"
                 }, {
-                  "title": "[🖥️] Internet",
+                  "title": "🖥️ Internet",
                   "description": "Cari Sesuatu Di Bot",
                   "rowId": ".? internet"
                 }, {
-                  "title": "[🥷] Anonymous",
+                  "title": "🥷 Anonymous",
                   "description": "Mainkan Anonymous Chat",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "[✒️] Nulis & Logo",
+                  "title": "✒️ Nulis & Logo",
                   "description": "Menu Nulis & Logo",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "[📺] Downloader",
+                  "title": "📺 Downloader",
                   "description": "Download Sesuatu Di Bot",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "[🔧] Tools",
+                  "title": "🔧 Tools",
                   "description": "Tools Yang Bisa di Gunakan Di Bot",
                   "rowId": ".? tools"
                 }, {
-                  "title": "[🎇] Fun",
+                  "title": "🎇 Fun",
                   "description": "Menu Ceria",
                   "rowId": ".? fun"
                 }, {
-                  "title": "[📂] Database",
+                  "title": "📂 Database",
                   "description": "Simpan Sesuatu Di Bot",
                   "rowId": ".? database"
                 }, {
-                  "title": "[📝] Vote & Absen",
+                  "title": "📝 Vote & Absen",
                   "description": "Menu Vote & Absen",
                   "rowId": ".? vote"
                 }, {
-                  "title": "[🎙️] Pengubah Suara",
+                  "title": "🎙️ Pengubah Suara",
                   "description": "Ubah Suaramu",
                   "rowId": ".? audio"
                 }, {
-                  "title": "[🤖] Jadi Bot",
-                  "description": "Jadi Bot",
+                  "title": "🤖 Jadi Bot",
+                  "description": "Numpang 🗿",
                   "rowId": ".? jadibot"
                 }, {
-                  "title": "[⛩️] Anime",
+                  "title": "⛩️ Anime",
                   "description": "Cari Anime Di Bot",
                   "rowId": ".? anime"
                 }, {
-                  "title": "[ℹ️] Info",
+                  "title": "ℹ️ Info",
                   "description": "Info Tentang Bot",
                   "rowId": ".? info"
                 }, {
@@ -370,7 +370,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Menu Khusu Owner",
+                  "description": "Cuma untuk orang kesayangan ❤️ ",
                   "rowId": ".? owner"
                 }
               ]
