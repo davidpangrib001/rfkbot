@@ -16,9 +16,9 @@ gc2 = 'https://tinyurl.com/grupex2'
 gc3 = '𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇..'
 global.linkGC = ['https://chat.whatsapp.com/LyMfZPkvku447yNryUkF3W', 'Coming Soon..'] // ganti jadi group lu
 global.owner = ['6282160268332','6282128475388'] // Put your number here //owner eval
-global.kontak = ['6282160268332','0','6282128475388'] //Ketika ada yang ngetik #owner
+global.kontak = ['6282160268332', '0', '6282128475388'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['6282160268332'] // Premium user has unlimited limit
+global.prems = ['6282160268332', '60149431385'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -58,7 +58,7 @@ global.author = 'Bot' // ganti aja
 
 //yyy
 bc = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' //ANDRIIxBOTZ Broadcast
-footer = '\n©𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆'
+footer = '\n𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲'
 namabot = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵'
 namalu = '𝘋𝘢𝘷𝘪𝘥'
 
