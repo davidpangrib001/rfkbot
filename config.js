@@ -11,14 +11,15 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = 'https://tinyurl.com/grupex1'
-gc2 = 'https://tinyurl.com/grupex2'
-gc3 = '𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇..'
+gc1 = 'https://s.id/TRLC'
+gc2 = 'https://s.id/TRLO'
+gc3 = 'https://s.id/TRMr'
+gc4 = 'https://s.id/TRMV'
 global.linkGC = ['https://chat.whatsapp.com/LyMfZPkvku447yNryUkF3W', 'Coming Soon..'] // ganti jadi group lu
 global.owner = ['6282160268332','6282128475388'] // Put your number here //owner eval
 global.kontak = ['6282160268332', '0', '6282128475388'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['6282160268332', '60149431385'] // Premium user has unlimited limit
+global.prems = ['6282160268332', '60149431385', '6287850603424'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -46,7 +47,7 @@ xteamkey = '7a99fbd6b77336d5'
 //xteam        MIMINETBOT
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
-kasihcaption = `*_Punten.. Nih Gopud kamu.._*`
+kasihcaption = `𝖥𝗂𝗇𝗂𝗌𝗁𝖾𝖽`
 namakontak1 = 'David'
 namakontak2 = 'David'
 
@@ -57,15 +58,15 @@ global.packname = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' // gan
 global.author = 'Bot' // ganti aja
 
 //yyy
-bc = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' //ANDRIIxBOTZ Broadcast
-footer = '\n𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲'
-namabot = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵'
-namalu = '𝘋𝘢𝘷𝘪𝘥'
+bc = '𝗢𝗻𝗲 𝗕𝗼𝘁' //ANDRIIxBOTZ Broadcast
+footer = '\n\n𝗪𝗶𝘁𝗵 𝗢𝗻𝗲 𝗕𝗼𝘁'
+namabot = '𝗢𝗻𝗲 𝗕𝗼𝘁'
+namalu = '𝗗𝗮𝘃𝗶𝗱'
 
 
 // 
 wait = '*_Tunggu, gopud-nya ingin siap.._*'
-global.wait = '𝗦𝗮𝗯𝗮𝗿.. 𝗚𝗼𝗽𝘂𝗱-𝗻𝘆𝗮 𝗶𝗻𝗴𝗶𝗻 𝘀𝗶𝗮𝗽..'
+global.wait = '𝖡𝖾 𝗉𝖺𝗍𝗂𝖾𝗇𝗍.. 𝗍𝗁𝖾 𝗈𝗋𝖽𝖾𝗋 𝗐𝖺𝗇𝗍𝗌 𝗍𝗈 𝖿𝗂𝗇𝗂𝗌𝗁..'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *.enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *.enable* *nsfw* untuk menggunakan fitur ini!\n“ *Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padanya*, ” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = 'Hehe, maaf server emror..'
