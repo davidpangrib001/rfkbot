@@ -248,6 +248,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃⬡ Group Official 3 :
 ┃    ${gc3}
+┃⬡ Grup  Official 4 :
+┃    ${gc4}
 ┃
 ┃
 ┗━━━━━━━━⬣`.trim(),
