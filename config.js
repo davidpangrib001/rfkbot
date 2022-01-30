@@ -54,7 +54,7 @@ namakontak2 = 'David'
 //kasihcaption = `Sudah Selesai..`
 
 // Sticker WM
-global.packname = '𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘉𝘰𝘵' // ganti aja
+global.packname = '𝗢𝗻𝗲 𝗕𝗼𝘁' // ganti aja
 global.author = 'Bot' // ganti aja
 
 //yyy
