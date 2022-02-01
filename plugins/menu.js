@@ -231,24 +231,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏━━〔 ${namabot} 〕━⬣
-┃
-┃Hai, %name
-┃
-┃⬡ Tersisa *%limit Limit*
-┃⬡ Role *%role*
-┃⬡ Level *%level (%exp / %maxexp)* 
-┃⬡ [%xp4levelup]
-┃⬡ %totalexp XP secara Total
-┃ 
-┃⬡ Hari : *%week %weton* 
-┃⬡ Tanggal : *%date*
-┃⬡ Tanggal Islam : 
-┃⬡ *%dateIslamic*
-┃⬡ Waktu: *%time*
-┃
-┃⬡ Aktif Selama: *%uptime (%muptime)*
-┃⬡ Database: %rtotalreg dari %totalreg
+┏━━〔 Status 〕━⬣
+┃⬡ Aktif selama ${uptime}
+┃⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+┃⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+┃⬡ *${totaljadibot.length}* Jadibot
+┃⬡ *${conn.blocklist.length}* Terblock
+┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
 ┃⬡ Grup Official 1 :
 ┃    ${gc1}
@@ -262,129 +252,130 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ Grup Official 4 :
 ┃    ${gc4}
 ┃
-┃ Note : *Jangan Spam botnya..*
+┃ 
+┃   Note : *_Jangan spam, minta bokep, dan telpon bot !_*
 ┃
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾..",
+          "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `🧾 Semua Perintah`,
-                  "description": "*Semua Perintah Bot*",
+                  "title": ` 🧾 Semua Perintah`,
+                  "description": " ",
                   "rowId": ".? all"
                 }, {
-                  "title": "🕋 Islam",
-                  "description": "*Yuk.. cari tahu pembelajaran Islami.. 😊*",
+                  "title": " 🕋 Islam",
+                  "description": " ",
                   "rowId": ".? quran"
                 }, {
-                  "title": "🏫 Edukasi",
-                  "description": "*Belajarlah lebih banyak.. Bertambahlah Ilmu-mu..*",
+                  "title": " 🏫 Edukasi",
+                  "description": " ",
                   "rowId": ".? edukasi"
                 }, {
-                  "title": "📰 News",
-                  "description": "*Berita Terkini*",
+                  "title": " 📰 News",
+                  "description": " ",
                   "rowId": ".? News"
                 },  {
-                  "title": "🎮 Game",
-                  "description": "*Game di Bot WhatsApp*",
+                  "title": " 🎮 Game",
+                  "description": " ",
                   "rowId": ".? game"
                 }, {
-                  "title": "🗺️ Epic Rpg",
-                  "description": "*Siap bertempur dan menjelajah*",
+                  "title": " 🗺️ Epic Rpg",
+                  "description": " ",
                   "rowId": ".? rpg"
                 }, {
-                  "title": "📈 XP",
-                  "description": "*Tingkatkan level kamu..*",
+                  "title": " 📈 XP",
+                  "description": "XP Dan Level",
                   "rowId": ".? xp"
                 },  {
-                  "title": "🔞 NSFW",
-                  "description": "*For 18+!!!*",
+                  "title": " 🔞 NSFW",
+                  "description": " ",
                   "rowId": ".? nsfw"
                 }, {
-                  "title": "🖼️ Random Image",
-                  "description": "*Foto Acak*",
+                  "title": " 🖼️ Random Image",
+                  "description": "Menu Foto Random",
                   "rowId": ".? image"
                 }, {
-                  "title": "🎴 Stiker",
-                  "description": "*Menu Buat Stiker*",
+                  "title": " 🔮 Stiker",
+                  "description": " ",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "🐚 Kerang Ajaib",
-                  "description": "*Mainan orang gabut 🗿*",
+                  "title": " 🐚 Kerang Ajaib",
+                  "description": " ",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "📑 Quotes",
-                  "description": "*Menu Quotes*",
+                  "title": " 📑 Quotes",
+                  "description": " ",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "🏛️ Admin",
-                  "description": "*Hanya untuk admin grup*",
+                  "title": " 🏛️ Admin",
+                  "description": " ",
                   "rowId": ".? admin"
                 }, {
-                  "title": "🏢 Grup",
-                  "description": "*Cuma untuk grup aja..*",
+                  "title": " 🏢 Grup",
+                  "description": " ",
                   "rowId": ".? grup"
                 }, {
-                  "title": "🎁 Premium",
-                  "description": "*Khusus anggota premium saja yang bisa akses fitur ini*",
+                  "title": " 👑 Premium",
+                  "description": " ",
                   "rowId": ".? premium"
                 }, {
-                  "title": "🖥️ Internet",
-                  "description": "*Cari Sesuatu Di Bot*",
+                  "title": " 🌐 Internet",
+                  "description": " ",
                   "rowId": ".? internet"
                 }, {
                   "title": "🥷 Anonymous",
-                  "description": "*Berbicara dengan orang lain*",
+                  "description": " ",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "✒️ Nulis & Logo",
-                  "description": "*Menu Nulis & Logo*",
+                  "title": " ✒️ Nulis & Logo",
+                  "description": " ",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "📺 Downloader",
-                  "description": "*Download Sesuatu Di Bot*",
+                  "title": " 📺 Downloader",
+                  "description": " ",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "🔧 Tools",
-                  "description": "*Tools Yang Bisa di Gunakan Di Bot*",
+                  "title": " 🔧 Tools",
+                  "description": " ",
                   "rowId": ".? tools"
                 }, {
-                  "title": "[🎇] Fun",
-                  "description": "*Menu Ceria*",
+                  "title": " 🎇 Fun",
+                  "description": " ",
                   "rowId": ".? fun"
                 }, {
-                  "title": "📂 Database",
-                  "description": "*Simpan Sesuatu Di Bot*",
+                  "title": " 📂 Database",
+                  "description": " ",
                   "rowId": ".? database"
                 }, {
-                  "title": "📝 Vote & Absen",
-                  "description": "*Menu Vote & Absen*",
+                  "title": " 📝 Vote & Absen",
+                  "description": " ",
                   "rowId": ".? vote"
                 }, {
-                  "title": "🎙️ Pengubah Suara",
-                  "description": "*Ubah Suaramu*",
+                  "title": " 🎙️ Pengubah Suara",
+                  "description": " ",
                   "rowId": ".? audio"
                 }, {
-                  "title": "🤖 Jadi Bot",
-                  "description": "_Numpang 🗿_",
+                  "title": " 🤖 Jadi Bot",
+                  "description": " ",
                   "rowId": ".? jadibot"
                 }, {
-                  "title": "⛩️ Anime",
-                  "description": "*Cari Anime Di Bot*",
+                  "title": " ⛩️ Anime",
+                  "description": " ",
                   "rowId": ".? anime"
                 }, {
-                  "title": "ℹ️ Info",
-                  "description": "*Info Tentang Bot*",
+                  "title": " ℹ️ Info",
+                  "description": " ",
                   "rowId": ".? info"
                 }, {
                   "title": "Tanpa Kategori",
-                  "description": "*Tidak berguna..*",
+                  "description": "",
                   "rowId": ".? tanpakategori"
                 }, {
-                  "title": "🧑‍💻 Owner",
-                  "description": "*Cuma untuk orang kesayangan aja.. 👑*",
+                  "title": " 🧑‍💻 Owner",
+                  "description": " ",
                   "rowId": ".? owner"
                 }
               ]
@@ -474,12 +465,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), footer, 'Manusia\nTerganteng Di Dunia', '.owner', 'Donasi', '.Donasi', 'Syarat & Ketentuan', '.infobot', m)
+    await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), footer, 'Pemilik Bot', '.owner', 'Donasi', '.donasi', 'Rules', '.infobot', m)
     // await conn.send3ButtonLoc(m.chat, await (await fetch(`https://i.ibb.co/fH0hppT/mikey.jpg`)).buffer(), text.trim(), 'Recoded By Dawnfrosty', 'Pemilik Bot', '.owner', 'Donasi', '.donasi', 'Rules', '.infobot', m)
     await conn.sendFile(m.chat, bzz, 'bzz.opus', null, m, true)
     await conn.sendFile(m.chat, bzz2, 'bzz2.opus', null, m, true)
   } catch (e) {
-    conn.reply(m.chat, '*_Hehe.. menunya error.._*', m)
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
@@ -502,18 +493,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat Subuh"
+  res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Selamat Siang"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "Selamat malam"
   }
   return res
 }
