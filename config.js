@@ -59,9 +59,9 @@ global.author = 'Bot' // ganti aja
 
 //yyy
 bc = '𝗢𝗻𝗲 𝗕𝗼𝘁' //ANDRIIxBOTZ Broadcast
-footer = '\n\n𝗪𝗶𝘁𝗵 𝗢𝗻𝗲 𝗕𝗼𝘁'
-namabot = '𝗢𝗻𝗲 𝗕𝗼𝘁'
-namalu = '𝗗𝗮𝘃𝗶𝗱'
+footer = '\n𝖡𝗒 𝖮𝗇𝖾 𝖡𝗈𝗍'
+namabot = '𝖮𝗇𝖾 𝖡𝗈𝗍'
+namalu = '𝖣𝖺𝗏𝗂𝖽'
 
 
 // 
