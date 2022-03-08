@@ -253,121 +253,124 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃    ${gc4}
 ┃
 ┃ 
-┃   Note : *_Jangan spam, minta bokep, dan telpon bot !_*
+┃   Note :
+┃*_Jangan spam, minta bokep, dan telpon bot !_*
+┃Ⓛ = Limit
+┃🅟 = Premium
 ┃
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "Klik Disini",
+          "buttonText": "Semua Menu Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
                   "title": ` 🧾 Semua Perintah`,
-                  "description": "",
+                  "description": "Semua fitur bot",
                   "rowId": ".? all"
                 }, {
                   "title": " 🕋 Islam",
-                  "description": "",
+                  "description": "Menu Islam",
                   "rowId": ".? quran"
                 }, {
                   "title": " 🏫 Edukasi",
-                  "description": "",
+                  "description": "Untuk Edukasi",
                   "rowId": ".? edukasi"
                 }, {
                   "title": " 📰 News",
-                  "description": "",
+                  "description": "Berita Hari ini",
                   "rowId": ".? News"
                 },  {
                   "title": " 🎮 Game",
-                  "description": "",
+                  "description": "Daripada gabut",
                   "rowId": ".? game"
                 }, {
                   "title": " 🗺️ Epic Rpg",
-                  "description": "",
+                  "description": "Berpetualang mengelilingi dunia",
                   "rowId": ".? rpg"
                 }, {
                   "title": " 📈 XP",
-                  "description": "",
+                  "description": "Sama kaya game bang",
                   "rowId": ".? xp"
                 },  {
                   "title": " 🔞 NSFW",
-                  "description": "",
+                  "description": "Tobat.. Ntar lagi puasa",
                   "rowId": ".? nsfw"
                 }, {
                   "title": " 🖼️ Random Image",
-                  "description": "",
+                  "description": "Gambar acak",
                   "rowId": ".? image"
                 }, {
                   "title": " 🔮 Stiker",
-                  "description": "",
+                  "description": "Kirim foto dengan caption *.s*",
                   "rowId": ".? stiker"
                 }, {
                   "title": " 🐚 Kerang Ajaib",
-                  "description": "",
+                  "description": "Anak anak gabut",
                   "rowId": ".? kerangajaib"
                 }, {
                   "title": " 📑 Quotes",
-                  "description": "",
+                  "description": "Bacotan handal, yang masih jomblo, DLL",
                   "rowId": ".? quotes"
                 }, {
                   "title": " 🏛️ Admin",
-                  "description": "",
+                  "description": "Dinonaktifkan",
                   "rowId": ".? admin"
                 }, {
                   "title": " 🏢 Grup",
-                  "description": "",
+                  "description": "Dinonaktifkan",
                   "rowId": ".? grup"
                 }, {
                   "title": " 👑 Premium",
-                  "description": "",
+                  "description": "Khusus anggota Premium",
                   "rowId": ".? premium"
                 }, {
                   "title": " 🌐 Internet",
-                  "description": "",
+                  "description": "Searching..",
                   "rowId": ".? internet"
                 }, {
                   "title": "🥷 Anonymous",
-                  "description": "",
+                  "description": "Ngobrol sama orang lain",
                   "rowId": ".? anonymous"
                 }, {
                   "title": " ✒️ Nulis & Logo",
-                  "description": "",
+                  "description": "Yang Mager",
                   "rowId": ".? nulis"
                 }, {
                   "title": " 📺 Downloader",
-                  "description": "",
+                  "description": "Donglod",
                   "rowId": ".? downloader"
                 }, {
                   "title": " 🔧 Tools",
-                  "description": " ",
+                  "description": "Alat Alat",
                   "rowId": ".? tools"
                 }, {
                   "title": " 🎇 Fun",
-                  "description": "",
+                  "description": "Ya begitulah..",
                   "rowId": ".? fun"
                 }, {
                   "title": " 📂 Database",
-                  "description": "",
+                  "description": "Simpen sesuatu di bot",
                   "rowId": ".? database"
                 }, {
                   "title": " 📝 Vote & Absen",
-                  "description": "",
+                  "description": "Ya begitulah..",
                   "rowId": ".? vote"
                 }, {
                   "title": " 🎙️ Pengubah Suara",
-                  "description": "",
+                  "description": "Jadi kek tupai gitu..",
                   "rowId": ".? audio"
                 }, {
                   "title": " 🤖 Jadi Bot",
-                  "description": "",
+                  "description": "Asli, lu gak modal..",
                   "rowId": ".? jadibot"
                 }, {
                   "title": " ⛩️ Anime",
-                  "description": "",
+                  "description": "Lari cuk ada wibu..",
                   "rowId": ".? anime"
                 }, {
                   "title": " ℹ️ Info",
-                  "description": "",
+                  "description": "Ingfo ingfo bot",
                   "rowId": ".? info"
                 }, {
                   "title": "Tanpa Kategori",
@@ -375,7 +378,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": " 🧑‍💻 Owner",
-                  "description": "",
+                  "description": "Khusus Omwer",
                   "rowId": ".? owner"
                 }
               ]
@@ -438,8 +441,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '(Limit)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Premium)' : '')
+                .replace(/%islimit/g, menu.limit ? 'Ⓛ' : '')
+                .replace(/%isPremium/g, menu.premium ? '🅟' : '')
                 .trim()
             }).join('\n')
           }),
